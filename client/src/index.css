@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .logo {
+    @apply flex items-center justify-center flex-col;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+button {
+  height: 45px !important;
+  border-radius: 2px !important;
+}
+
+input,
+select {
+  height: 45px;
+  width: 100% !important;
+  padding-left: 20px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border: 1px solid #18122B;
+  padding-left: 20px;
+}
+
+.ant-form-item {
+  margin-bottom: 0px !important;
+}
+
+i {
+  font-size: 20px !important;
+  cursor: pointer;
+}
+
+.ant-message {
+  font-weight: bold;
+}
+
+/* .ant-btn, .ant-tabs-tab-btn {
+  font-weight: bold;
+  color: #18122B;
+
+} */
+
+
+table {
+  border: 1px solid #c0c0c0 !important;
+}
+
+.ant-select-selector {
+  border: 1px solid #6d6d6d !important;
+  border-radius: 2px !important;
+  height: 40px !important;
+}
+
+.ant-select-selector:hover {
+  border: 1px solid #303030 !important;
+  box-shadow: none !important;
+  height: 40px !important;
+}
+
+.ant-select-selector input {
+  height: 40px !important;
+  border: none !important;
+}
+
+.ant-switch {
+  height: 22px !important;
+  border-radius: 10px !important;
+}
+
+
+
+/* Quick search & Filters */
+.quick-search-results {
+  height: 500px;
+  overflow-y: auto;
+  width: 100%;
+  border: 1px solid #c0c0c0;
+  background-color: white;
+  position: absolute;
+  z-index: 10000;
+  top: 42px;
+  box-shadow: 1px 1px 2px #c0c0c0;
+}
+
+.ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #000000;
+}
+
+.ant-tabs .ant-tabs-ink-bar {
+  position: absolute;
+  background: #59499e;
+  pointer-events: none;
+}
+
+.ant-tabs .ant-tabs-tab:hover {
+  color: #ffffff;
+}
+
+/* body {
+  background-color: #050111;
+} */
