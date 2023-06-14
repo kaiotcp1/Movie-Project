@@ -4,6 +4,8 @@
 # Sobre o projeto
 
 Esta aplicação web permite ao usuário buscar informações de seus filmes, séries, atores, diretores, atrizes entre outras categorias. Também enclui sistema de reviews, dashboard administrativo para todas as operações CRUD.
+
+Por estar hospedado em uma instancia gratuita do render.com, após 15 minutos de inatividade automaticamente app é "desligado". Quando chega uma nova solicitação, o Render o ativa novamente para que possa processar a solicitação, isso demora de 30s a 1m.
 [Acesse aqui](https://world-movie.onrender.com/login)
 
 
